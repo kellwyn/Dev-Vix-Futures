@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# Secrets
+.env
+
+# MT5 compiled binaries (source .mq5 files are committed, not compiled .ex5)
+*.ex5
+
+# PDFs (playbooks kept locally, not in repo)
+*.pdf
+
+# OS
+.DS_Store
+Thumbs.db
